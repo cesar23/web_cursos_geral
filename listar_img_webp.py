@@ -70,7 +70,6 @@ for dirpath, dirnames, filenames in os.walk(path,topdown=True):
         # se pueden utilizar más tipos de imágenes (bmp, tiff, gif)
         # if img_name.endswith(".jpg") or img_name.endswith(".png") or img_name.endswith(".jpeg"):
         if img_name.endswith(".webp"):
-
             img_list.append(img_name)
 
 
