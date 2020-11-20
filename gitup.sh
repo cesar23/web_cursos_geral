@@ -19,7 +19,7 @@ function gitup2() {
     git commit -m "cmder se actualizo :${DATE_HOUR_GIT}"
     git push
 }
-cls
+clear
 gitup
 
 echo ""
