@@ -19,6 +19,11 @@ function gitup2() {
     git commit -m "cmder se actualizo :${DATE_HOUR_GIT}"
     git push
 }
+
+
+python listar_img_webp.py
+
+
 clear
 gitup
 
