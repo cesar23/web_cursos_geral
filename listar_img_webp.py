@@ -100,7 +100,7 @@ for img_name in img_list:
     str ="https://cesar23.github.io/web_cursos_geral/2020/{}".format(img_name)
     str= '<a href="{}">{}</a> <br>'.format(str,str)
     print(str )
-    salida_html+=str
+    salida_html+=str +'\n'
     # running the above command
     # call(cmd, shell=False)
     # print(cmd)    # for debug
