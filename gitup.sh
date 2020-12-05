@@ -8,7 +8,7 @@ function upgit() {
 
 function gitup() {
     git pull
-	  git add -A
+	git add -A
     git commit -m "cmder se actualizo :${DATE_HOUR_GIT}"
     git push -u origin master
 }
