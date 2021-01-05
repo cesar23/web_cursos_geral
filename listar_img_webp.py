@@ -53,7 +53,7 @@ plantilla ="""
 </html>
 """
 #folder-name
-path = r"D:\repos\web_cursos_geral\2020"
+path = r"C:\Users\USUARIO\Desktop\magaly\web_cursos_geral"
 #quality of produced .webp images [0-100]
 
 
