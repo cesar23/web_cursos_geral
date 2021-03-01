@@ -62,6 +62,8 @@ print("-------------------------------------------------------------------------
 print("-----------------Filtramos solo las imagenes [jps,png]---------------------")
 print("-------------------------------------------------------------------------")
 
+
+
 img_list = []
 
 for dirpath, dirnames, filenames in os.walk(path,topdown=True):
@@ -69,7 +71,7 @@ for dirpath, dirnames, filenames in os.walk(path,topdown=True):
     for img_name in filenames:
         # se pueden utilizar más tipos de imágenes (bmp, tiff, gif)
         # if img_name.endswith(".jpg") or img_name.endswith(".png") or img_name.endswith(".jpeg"):
-        if img_name.endswith(".webp"):
+        if img_name.endswith(".webp") or img_name.endswith(".jpg") or img_name.endswith(".png")or img_name.endswith(".svg"):
             img_list.append(img_name)
 
 
